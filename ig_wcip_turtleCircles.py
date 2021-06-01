@@ -1,0 +1,19 @@
+import turtle
+
+t = turtle.Turtle()
+
+turtle.bgcolor("black")
+turtle.pensize(2)
+turtle.speed(0)
+ 
+while (True):
+    for i in range(6):
+        for color in ["red", "blue", "magenta", "green", "yello", "white"]:
+            turtle.color(color)
+            turtle.circle(100)
+            turtle.left(10)
+
+turtle.hideturtle()
+turtle.mainloop()
+
+# test
